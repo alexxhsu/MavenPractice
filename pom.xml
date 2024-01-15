@@ -22,6 +22,11 @@
     <dependency>
       <groupId>com.opencsv</groupId>
       <artifactId>opencsv</artifactId>
+      <version>5.5</version> <!-- 檢查最新的版本號 -->
+  </dependency>
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
       <version>5.4</version>
  </dependency>
     <dependency>

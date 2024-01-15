@@ -10,7 +10,8 @@ public class scanner {
         Scanner sc =new Scanner(getCSVFiles);
         sc.useDelimiter(",");
         while(sc.hasNext()){
-            System.out.print(sc.next()+"|");
+            String curretToken = sc.next();
+            System.out.print(curretToken+"|");
         }
         sc.close();
     }
